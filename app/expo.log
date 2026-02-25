@@ -1,0 +1,46 @@
+Starting project at /home/jakob/Schreibtisch/MindTrack/app
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web ./index.js ▓▓▓▓▓▓▓▓▓░░░░░░░ 62.4% (143/181)
+Web Bundled 4541ms index.js (275 modules)
+ LOG  [web] Logs will appear in the browser console
+Web Bundling failed 131ms node_modules/expo-sqlite/web/worker.ts (1 module)
+Unable to resolve "./wa-sqlite/wa-sqlite.wasm" from "node_modules/expo-sqlite/web/worker.ts"
+[0m [90m 20 |[39m [36mimport[39m [33mWaSQLiteFactory[39m [36mfrom[39m [32m'./wa-sqlite/wa-sqlite'[39m[33m;[39m
+ [90m 21 |[39m [90m// @ts-expect-error wasm module is not typed[39m
+[31m[1m>[22m[39m[90m 22 |[39m [36mimport[39m wasmModule [36mfrom[39m [32m'./wa-sqlite/wa-sqlite.wasm'[39m[33m;[39m
+ [90m    |[39m                         [31m[1m^[22m[39m
+ [90m 23 |[39m [36mimport[39m {
+ [90m 24 |[39m   type [33mSQLiteWorkerMessage[39m[33m,[39m
+ [90m 25 |[39m   type [33mSQLiteWorkerMessageType[39m[33m,[39m[0m
+
+Import stack:
+
+ node_modules/expo-sqlite/web/worker.ts
+ | import "./wa-sqlite/wa-sqlite.wasm"
+
+ 
+ | import "./node_modules/expo-sqlite/web/worker"
+
+Web ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 19ms index.js (1 module)
+Web Bundling failed 62ms node_modules/expo-sqlite/web/worker.ts (1 module)
+Unable to resolve "./wa-sqlite/wa-sqlite.wasm" from "node_modules/expo-sqlite/web/worker.ts"
+[0m [90m 20 |[39m [36mimport[39m [33mWaSQLiteFactory[39m [36mfrom[39m [32m'./wa-sqlite/wa-sqlite'[39m[33m;[39m
+ [90m 21 |[39m [90m// @ts-expect-error wasm module is not typed[39m
+[31m[1m>[22m[39m[90m 22 |[39m [36mimport[39m wasmModule [36mfrom[39m [32m'./wa-sqlite/wa-sqlite.wasm'[39m[33m;[39m
+ [90m    |[39m                         [31m[1m^[22m[39m
+ [90m 23 |[39m [36mimport[39m {
+ [90m 24 |[39m   type [33mSQLiteWorkerMessage[39m[33m,[39m
+ [90m 25 |[39m   type [33mSQLiteWorkerMessageType[39m[33m,[39m[0m
+
+Import stack:
+
+ node_modules/expo-sqlite/web/worker.ts
+ | import "./wa-sqlite/wa-sqlite.wasm"
+
+ 
+ | import "./node_modules/expo-sqlite/web/worker"
+
+ LOG  [web] Logs will appear in the browser console
